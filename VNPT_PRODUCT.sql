@@ -63,7 +63,7 @@ FROM (SELECT A.ID, A.SERVICE_ID, A.SERVICE_CODE, P.PRODUCT_ID,
       WHERE     A.SERVICE_CODE = P.SERVICE_CODE
             AND A.SERVICE_CODE = G.SERVICE_CODE
             and a.SERVICE_CODE=spi.SERVICE_CODE(+)
-            AND A.ID = PCG.SER_ID(+)
+            AND A.ID = PCG.SER_ID(+) 
             AND A.ID = PCG2.SER_ID(+)
             AND A.ID = PCG3.SER_ID(+)
             AND A.ID = PCG4.SER_ID(+)
