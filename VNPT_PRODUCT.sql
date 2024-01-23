@@ -71,3 +71,9 @@ FROM (SELECT A.ID, A.SERVICE_ID, A.SERVICE_CODE, P.PRODUCT_ID,
             AND PCG.PC_GROUP_ID = PCG8.GROUP_ID(+)
             AND G.SERVICE_GROUP = PCG6.G(+)
             AND A.SERVICE_CODE = PCG7.SERVICE_CODE(+))
+            
+            
+    
+    
+    hehe
+            
